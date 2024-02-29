@@ -1,0 +1,53 @@
+/* Apply some basic styles to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the table rows */
+  tr {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style alternating rows for better readability */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    color: green;
+  }
+  
+  /* Style the date column to display in a more readable format */
+  td:nth-child(5) {
+    white-space: nowrap;
+  }
+  
+  /* Style the "Pending" status to highlight it */
+  td:nth-child(6) {
+    color: #ff8800;
+    font-weight: bold;
+  }
+  
+  /* Add hover effect when hovering over table rows */
+  tr:hover {
+    background-color: #d9d9d9;
+  }
+  

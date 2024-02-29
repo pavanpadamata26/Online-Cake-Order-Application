@@ -1,0 +1,71 @@
+<!-- <div class="container">
+    <div class="image-wrapper">
+      <img src="../../assets/images/{{ cake.image }}.jpg" class="image">
+    </div>
+    <div class="Content">
+      <h2>{{ cake.image }}</h2>
+      <p>Description: {{ cake.description }}</p>
+      <p>Rating: {{ cake.rating }}</p>
+      <p>Price: ${{ cake.price }} per 1 kg</p>
+      <p>Review: {{ cake.review }}</p>
+    </div>
+    <div class="quantity">
+      <label for="quantity">Select Quantity </label>
+      <input type="number" id="quantity" [value]="selectedQuantity" (input)="calculateTotalPrice($event)">
+    </div>
+    <p>Total Price: ${{ totalPrice }}</p>
+
+      
+   
+      
+    <button class="add-button" mat-raise-button (click)="addToCart()">Add to cart</button>
+  </div>
+   -->
+   <!-- <div class="container">
+    <div class="image-wrapper">
+      <img src="../../assets/images/{{ cake.image }}.jpg" class="image">
+    </div>
+    <div class="Content">
+      <h2>{{ cake.image }}</h2>
+      <p>Description: {{ cake.description }}</p>
+      <p>Rating: {{ cake.rating }}</p>
+      <p>Price: ${{ cake.price }} per 1 kg</p>
+      <p>Review: {{ cake.review }}</p>
+    </div>
+    <div class="quantity">
+      <label for="quantity">Select Quantity </label>
+      <input type="number" id="quantity" [value]="selectedQuantity" (input)="onQuantityInput($event)">
+    </div>
+    
+    <p>Total Price: ${{ totalPrice }}</p>
+    <button class="add-button" mat-raise-button (click)="addToCart()" >
+      Add to cart
+    </button>
+  </div>
+   -->
+   <div class="container">
+    <div class="image-wrapper">
+      <img src="../../assets/images/{{ cake.image }}.jpg" class="image">
+    </div>
+    <div class="Content">
+      <h2>{{ cake.image }}</h2>
+      <p>Description: {{ cake.description }}</p>
+      <p>Rating: {{ cake.rating }}</p>
+      <p>Price: ${{ cake.price }} per 1 kg</p>
+      <p>Review: {{ cake.review }}</p>
+    </div>
+    <div class="quantity">
+      <label for="quantity">Select Quantity </label>
+      <input type="number" id="quantity" [value]="selectedQuantity" (input)="calculateTotalPrice($event)">
+    </div>
+    <p>Total Price: ${{ totalPrice }}</p>
+  
+    <div *ngIf="isBlankQuantity" class="error-message">
+      Please enter a quantity.
+    </div>
+    
+    <button class="add-button" mat-raise-button (click)="addToCart()" [disabled]="selectedQuantity < 1 || !selectedQuantity">
+      Add to cart
+    </button>
+  </div>
+  

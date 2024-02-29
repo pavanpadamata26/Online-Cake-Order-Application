@@ -1,0 +1,29 @@
+<mat-toolbar class="custom-toolbar" id="header">
+  <span>Home Baker</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button routerLink="/">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-raised-button routerLink="/login" *ngIf="!_authservice.isLoggedIn">Login</button>
+<button mat-raised-button *ngIf="_authservice.isLoggedIn" (click)="logOut()">Logout</button>
+
+  <!-- <button mat-raised-button routerLink="/login" *ngIf="! _authservice.isLoggedIn">Login</button>
+  <button mat-raised-button *ngIf="isLoggedIn" (click)="logOut()">Logout</button>
+   -->
+   <button mat-icon-button routerLink="/cart-view" id="person_add" style="color: white;">
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+  <button mat-raised-button *ngIf="isLoggedIn" routerLink="/orders">Orders</button>
+
+
+
+  <button mat-icon-button routerLink="/register-user" id="person_add" style="color: white;">
+    <mat-icon>person_add</mat-icon>
+  </button>
+  <button mat-icon-button routerLink="/profile-view" id="profile" style="color: white;">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+ 
+  <span style="color:chocolate"*ngIf="_authservice.isUserLoggedIn()">Welcome, {{ _authservice. getUserDetails().firstName }} </span>
+  
+</mat-toolbar>

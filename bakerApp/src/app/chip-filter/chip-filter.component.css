@@ -1,0 +1,29 @@
+/* Style for mat-chip-set container */
+.custom-chip-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; /* Spacing between chips */
+    padding: 8px; /* Optional padding around the chip set */
+    background-color: #f10e2c37; /* Background color for the chip set */
+    border: 1px solid #ccc; /* Border for the chip set */
+    border-radius: 8px; /* Rounded corners for the chip set */
+    min-width: 0; /* Ensure the container doesn't occupy extra width when empty */
+    justify-content: flex-start; /* Align chips to the left */
+  }
+  
+  /* Style for mat-chip elements */
+  .custom-chip {
+    background-color: #007BFF; /* Background color */
+    color: #fff; /* Text color */
+    padding: 4px 12px; /* Padding inside the chip */
+    border-radius: 16px; /* Rounded corners for the chip */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for mat-chip elements */
+  .custom-chip:hover {
+    background-color: #0056b3;
+    cursor: pointer; /* Darker background color on hover */
+  }
+  

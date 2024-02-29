@@ -1,0 +1,27 @@
+      <a [routerLink]="['./cake-detail-view',cake.id]">
+      <mat-card class="cake-card">
+        <img mat-card-image src="../../assets/images/{{cake.image}}.jpg" class="cake-image">
+        <mat-card-header>
+            <mat-card-title class="cake">*{{cake.image}} </mat-card-title>
+            <mat-card-subtitle>
+            <ng-container *ngFor="let _ of [].constructor(cake.rating); let i = index">
+                <img class="rating" mat-card-image src="../../assets/images/rating.jpg" [alt]="'Rating: ' + (i + 1)">
+              </ng-container>
+
+                <span class="price-text">Price:₹{{cake.price}}</span>
+
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <!-- <p class="tour-details">{{tour.details}}</p> -->
+            <!-- <h5>Cake Description: {{cake.description}}</h5> -->
+            <!-- <p class="category">Category:{{cake.categories}}</p> -->
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button  class="cart-button" routerLink="/cart-detail-view">Add to Cart</button>
+        </mat-card-actions>
+        
+    </mat-card>
+</a>
+
+  

@@ -1,0 +1,12 @@
+<!-- <mat-chip-set>
+    <mat-chip *ngFor="let category of categories" (click)="selectCategory(category)">
+      {{ category }}
+    </mat-chip>
+  </mat-chip-set> -->
+
+  <mat-chip-set class="custom-chip-set">
+    <mat-chip *ngFor="let category of categories" (click)="selectCategory(category)" class="custom-chip">
+      {{ category }}
+    </mat-chip>
+  </mat-chip-set>
+  

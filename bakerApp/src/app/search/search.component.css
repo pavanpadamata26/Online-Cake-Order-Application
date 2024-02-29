@@ -1,0 +1,26 @@
+.search{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -400px;
+
+    
+   
+     
+}
+.input{
+    width: 300px;
+    
+   
+    
+}
+.feild{
+    border: 2px solid green;
+}
+.icon{
+    color:darkgreen
+}
+.text{
+    color: darkorange;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

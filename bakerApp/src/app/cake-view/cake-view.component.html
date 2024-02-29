@@ -1,0 +1,64 @@
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../assets/images/Classic Cheesecake.jpg" class="d-block w-100" alt="..." style="width: 100px; height: 400px;" >
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/images/Chocolate Blueberries Cake.jpg" class="d-block w-100" alt="..."  style="width: 100px; height: 400px;">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/images/Chocolate Cookies.jpg" class="d-block w-100" alt="..." style="width: 100px; height: 400px;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <div  id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../assets/images/Classic Cheesecake.jpg" class="d-block w-100" alt="..."style="width: 100px; height: 400px;">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/images/Chocolate Blueberries Cake.jpg" class="d-block w-100" alt="..."style="width: 100px; height: 400px;">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/images/Chocolate Cookies.jpg" class="d-block w-100" alt="..."style="width: 100px; height: 400px;">
+    </div>
+  </div>
+</div> -->
+
+<app-search (searchEvent)="onSearch($event)"></app-search>
+<app-chip-filter [categories]="categories" (categorySelected)="filterItemsByCategory($event)"></app-chip-filter>
+
+<div class="note-lists">
+  <ng-container *ngIf="selectedCategory === 'all'; else filteredCategory">
+    <app-cake-card
+      *ngFor="let cake of cakes"
+      [cake]="cake"
+
+    ></app-cake-card>
+  </ng-container>
+  
+  <ng-template #filteredCategory>
+    <app-cake-card
+      *ngFor="let cake of getFilteredItems()"
+      [cake]="cake"
+      
+    ></app-cake-card>
+  </ng-template>
+</div>
+
+<div class="note-lists" *ngIf="getFilteredItems().length === 0 && selectedCategory !== 'all'">
+  No Cakes Found
+</div>

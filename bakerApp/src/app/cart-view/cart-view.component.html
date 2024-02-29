@@ -1,0 +1,36 @@
+<div class="card-container">
+    <div *ngFor="let item of userItems; let i = index" class="card">
+      <div class="card-content">
+        <h2>{{ item.itemName }}</h2>
+        <p>Quantity: {{ item.quantity }}</p>
+        <p>Total Price: ${{ item.totalPrice }}</p>
+        <button (click)="removeFromCart(i)">Remove from Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-summary">
+    <div class="total-price">
+      <p>Total Cart Price: ${{ calculateTotalPrice() }}</p>
+    </div>
+    <div class="buttons">
+        <button class="buy-now-button" (click)="buyNow()">Buy Now</button>
+        <button class="add-more-button" (click)="navigateToHome()">Add More</button>
+      </div>
+  </div>
+ 
+  <!-- <div class="card-container">
+    <mat-card *ngFor="let item of userItems" class="cake-card">
+      <mat-card-header>
+        <div mat-card-avatar class="cake-image">
+          <img src="../../assets/images/{{item.image}}.jpg" alt="Cake Image">
+        </div>
+        <mat-card-title>{{ item.itemName }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Quantity: {{ item.quantity }}</p>
+        <p>Total Price: ${{ item.totalPrice }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div> -->
+  

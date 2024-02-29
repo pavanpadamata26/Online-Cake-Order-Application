@@ -1,0 +1,36 @@
+/* Style for the entire admin dashboard */
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333; /* Text color */
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666; /* Text color */
+  }
+  
+  /* Style for the "View All Orders" button */
+  a.mat-raised-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the button */
+  a.mat-raised-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  /* Optional: Apply styles to the "View All Orders" button when it's disabled */
+  a.mat-raised-button:disabled {
+    background-color: #ccc; /* Change the background color when disabled */
+    cursor: not-allowed;
+  }
+  

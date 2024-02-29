@@ -1,0 +1,8 @@
+<h2>Admin Dashboard</h2>
+<p>Welcome, {{ currentUser.firstName }}!</p>
+<div *ngIf="isAdmin">
+ 
+  <a mat-raised-button routerLink="/admin/orders">View All Orders</a>
+ 
+</div>
+

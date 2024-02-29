@@ -1,0 +1,95 @@
+/* CSS for the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  /* CSS for individual cards */
+  .card {
+    background-color:lightcoral;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the card width as needed */
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03); /* Add a slight zoom effect on hover */
+  }
+  
+  /* CSS for card content */
+  .card-content {
+    text-align: left;
+  }
+  
+  .card h2 {
+    font-size: 1rem;
+    margin: 0;
+    color:green
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: aqua;
+  }
+  
+  /* Add more specific styles for your card content as needed */
+ /* CSS for the cart-summary section */
+/* CSS for the cart-summary section */
+/* CSS for the cart-summary section */
+.cart-summary {
+    text-align: center; /* Center-align the content horizontally */
+    background-color: #f5f5f5; /* Background color for the summary section */
+    padding: 20px; /* Add padding to the summary section */
+    display: flex;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+  
+    /* Optional: Add a box shadow for a raised effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for the Total Cart Price text */
+  .total-price {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for the buttons container */
+  .buttons {
+    display: flex; /* Display buttons side by side */
+    gap: 10px; /* Add some space (10px) between the buttons */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+  }
+  
+  /* CSS for the Buy Now button */
+  .buy-now-button,
+  .add-more-button {
+    background-color: #007bff;
+    color: #fff;
+    /* Reduce padding for smaller buttons */
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 70px;
+ 
+  
+    /* Optional: Add hover styles */
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-button:hover,
+  .add-more-button:hover {
+    background-color: #0056b3;
+  }
+   .buy-now-button{
+    margin-left: -200px;
+   }
+  

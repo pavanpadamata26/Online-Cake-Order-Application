@@ -1,0 +1,86 @@
+.heading{
+    margin-left:3em;
+    font: bold 1.7em cursive;
+    color:blue;   
+    padding-top:30px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 70px;
+}
+.second-row{
+    margin-left: 70px;
+   
+}
+.second-row mat-form-field{
+    width:440px
+}
+.third-row{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 70px;
+}
+.forth-row{
+    margin-left: 70px;
+}
+.fifth-row{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30PX;
+}
+.sixth-row{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 70px;
+    margin-top:20px ;
+
+}
+h4{
+    margin-left: 70px;
+}
+.seventh-row{
+    margin-left: 70px;
+
+}
+.seventh-row mat-form-field{
+    width:440px
+}
+.eight-row{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left: 70px;
+    margin-top:20px ;
+}
+.nine-row{
+    margin-left: 70px; 
+}
+.nine-row mat-form-field{
+    width:440px
+}
+button {
+    margin-right: 10px;
+    padding: 0 40px; 
+    margin:15px;
+    font-size: large;
+    margin-left: 70px;
+  }
+  
+.form {
+    background-color: yellow; /* Light gray background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  h4{
+color:blue
+  }
+  .text{
+    color:blue
+  }

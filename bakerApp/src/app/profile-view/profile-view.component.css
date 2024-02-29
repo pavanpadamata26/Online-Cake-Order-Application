@@ -1,0 +1,44 @@
+/* Add this to your component's CSS file or global styles */
+.profile-card {
+    width: 500px; /* Adjust the width as needed */
+    height: 200px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-info {
+    margin: 5px 0;
+    font-size: 16px;
+    color:green; /* Set text color to dark gray */
+  }
+  
+  .mat-card-title {
+    background-color: #007ACC; /* Adjust to your preferred title background color */
+    color: white; /* Set title text color to white */
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .mat-card-content {
+    padding: 20px;
+  }
+  .user{
+    color:black
+  }
+.content{
+    color:red;
+}
+.view-orders-button {
+    background-color: #007ACC; /* Background color when not hovering */
+    color: white; /* Text color */
+    border: none;
+    width: 50%; /* Adjust the button width as needed */
+    margin: 0 auto; /* Center the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hover effect */
+  }
+  
+  .view-orders-button:hover {
+    background-color: #00568C; /* Background color on hover */
+  }

@@ -1,0 +1,524 @@
+{
+  "users": [
+    {
+      "user_role": "user",
+      "firstName": "Bhanu",
+      "lastName": "peddireddy",
+      "email": "bhanu@gmail.com",
+      "password": "Pavan@1234",
+      "conformPassword": "Pavan@1234",
+      "gender": "male",
+      "age": 23,
+      "phoneNumber": "7999090002",
+      "address": {
+        "street": "gjksdddksklhdjhsa",
+        "city": "guntur",
+        "state": "andrapradesh",
+        "zipCode": "522259"
+      },
+      "items": [
+        {
+          "cakeId": "p6k281ism",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 3,
+          "totalPrice": 450
+        },
+        {
+          "cakeId": "vwzuttwy1",
+          "itemName": "Cherry Jelly Cheesecake",
+          "quantity": 3,
+          "totalPrice": 450
+        },
+        {
+          "cakeId": "o1jn6acp7",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 1,
+          "totalPrice": 150
+        },
+        {
+          "cakeId": "7e1xirzji",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300
+        },
+        {
+          "cakeId": "z524u0bom",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 1,
+          "totalPrice": 150
+        },
+        {
+          "cakeId": "rm1vx0ojo",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 1,
+          "totalPrice": 150
+        },
+        {
+          "cakeId": "plk50nck3",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300
+        },
+        {
+          "cakeId": "57mf6p0wc",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": null,
+          "totalPrice": null
+        },
+        {
+          "cakeId": "tp02pvlv3",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 5,
+          "totalPrice": 750
+        },
+        {
+          "cakeId": "7czc82vrb",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": -23,
+          "totalPrice": -3450
+        },
+        {
+          "cakeId": "zfm9wwa3c",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 1,
+          "totalPrice": 150
+        },
+        {
+          "cakeId": "ck7a5w3rb",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300
+        },
+        {
+          "cakeId": "vyuta4471",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": null,
+          "totalPrice": null
+        },
+        {
+          "cakeId": "tjeqrelgd",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": null,
+          "totalPrice": null
+        },
+        {
+          "cakeId": "8j29tx8p4",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 1,
+          "totalPrice": 150
+        },
+        {
+          "cakeId": "uzdb09dwl",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": null,
+          "totalPrice": null
+        },
+        {
+          "cakeId": "ppok5s80u",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": null,
+          "totalPrice": null
+        },
+        {
+          "cakeId": "agj2imfcc",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": -23,
+          "totalPrice": -3450
+        },
+        {
+          "cakeId": "cvqkyyz38",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 23,
+          "totalPrice": 3450
+        }
+      ],
+      "orders": [
+        {
+          "cakeId": "6biqhnwku",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-14T01:57:57.238Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "1n539xagv",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 3,
+          "totalPrice": 450,
+          "orderDate": "2023-10-14T01:57:57.248Z",
+          "status": "conformed"
+        },
+        {
+          "cakeId": "sz974zg7u",
+          "itemName": "Chocolate Cupcake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-14T01:57:57.248Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "hxc6i7au1",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 3,
+          "totalPrice": 450,
+          "orderDate": "2023-10-14T02:22:35.519Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "68lu8sq07",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-14T02:23:11.630Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "osi6wur24",
+          "itemName": "Chocolate Summer Berries",
+          "quantity": 6,
+          "totalPrice": 1200,
+          "orderDate": "2023-10-14T03:18:09.325Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "2oindmdj7",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 8,
+          "totalPrice": 1200,
+          "orderDate": "2023-10-14T03:23:26.936Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "5ryn48yra",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 9,
+          "totalPrice": 1350,
+          "orderDate": "2023-10-14T03:23:26.936Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "w24k10kk9",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 12,
+          "totalPrice": 1800,
+          "orderDate": "2023-10-14T03:29:00.465Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "2skt699xb",
+          "itemName": "Cherry Jelly Cheesecake",
+          "quantity": 3,
+          "totalPrice": 450,
+          "orderDate": "2023-10-14T03:41:20.829Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "7ks1upoqy",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 4,
+          "totalPrice": 600,
+          "orderDate": "2023-10-14T03:41:20.829Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "1eihgzje6",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 21,
+          "totalPrice": 3150,
+          "orderDate": "2023-10-14T03:41:20.829Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "dmlxavc7w",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 21,
+          "totalPrice": 3150,
+          "orderDate": "2023-10-14T03:41:20.829Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "1svo73uo9",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 22,
+          "totalPrice": 3300,
+          "orderDate": "2023-10-14T03:42:51.582Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "5xnfnct96",
+          "itemName": "Cherry Jelly Cheesecake",
+          "quantity": 23,
+          "totalPrice": 3450,
+          "orderDate": "2023-10-14T03:49:26.780Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "q5v0i0dux",
+          "itemName": "Chocolate Summer Berries",
+          "quantity": 56,
+          "totalPrice": 11200,
+          "orderDate": "2023-10-14T03:58:26.554Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "e1knlsbeg",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 23,
+          "totalPrice": 3450,
+          "orderDate": "2023-10-14T04:02:15.703Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "ag7d1g58m",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-14T04:06:24.187Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "xtpfjbk7d",
+          "itemName": "Berries Summer Cupcakes",
+          "quantity": 3,
+          "totalPrice": 1650,
+          "orderDate": "2023-10-14T04:11:35.935Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "s0cx4l58h",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 5,
+          "totalPrice": 750,
+          "orderDate": "2023-10-14T04:40:00.833Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "xcsxfjc2g",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 23,
+          "totalPrice": 3450,
+          "orderDate": "2023-10-14T04:40:45.398Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "gw3wd6u73",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-15T07:52:03.836Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "eo4vb7tqs",
+          "itemName": "Chocolate Summer Berries",
+          "quantity": 3,
+          "totalPrice": 600,
+          "orderDate": "2023-10-15T12:17:34.196Z",
+          "status": "ordered"
+        },
+        {
+          "cakeId": "qh85mo53p",
+          "itemName": "Chocolate Blueberries Cake",
+          "quantity": 2,
+          "totalPrice": 300,
+          "orderDate": "2023-10-16T06:22:25.857Z",
+          "status": "ordered"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "user_role": "admin",
+      "firstName": "Manohar",
+      "lastName": "Lal",
+      "email": "manohar@gmail.com",
+      "password": "Pavan@123",
+      "conformPassword": "Pavan@123",
+      "gender": "",
+      "age": 23,
+      "phoneNumber": "8500936201",
+      "address": {
+        "street": "bapatala",
+        "city": "cherukupalli",
+        "state": "andrapradesh",
+        "zipCode": "522259"
+      },
+      "items": [],
+      "orders": [],
+      "id": 5
+    }
+  ],
+  "cakes": [
+    {
+      "id": 1,
+      "image": "Berries Summer Cupcakes",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 4,
+      "price": 550,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cake"
+    },
+    {
+      "id": 2,
+      "image": "Butter Cookies",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 5,
+      "price": 550,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Desert"
+    },
+    {
+      "id": 3,
+      "image": "Cherry Jelly Cheesecake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 150,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Bread"
+    },
+    {
+      "id": 4,
+      "image": "Chocolate Blueberries Cake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 2,
+      "price": 150,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cake"
+    },
+    {
+      "id": 6,
+      "image": "Chocolate Bonbons",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 4,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Bread"
+    },
+    {
+      "id": 7,
+      "image": "Chocolate Cookies",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 4,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cake"
+    },
+    {
+      "id": 8,
+      "image": "Chocolate Cupcake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 150,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Bread"
+    },
+    {
+      "id": 9,
+      "image": "Chocolate Summer Berries",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 2,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Desert"
+    },
+    {
+      "id": 10,
+      "image": "Classic Cheesecake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cake"
+    },
+    {
+      "id": 11,
+      "image": "Cookies Cream Cake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 2,
+      "price": 150,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "vegan"
+    },
+    {
+      "id": 12,
+      "image": "Easter Cupcakes",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 5,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cookies"
+    },
+    {
+      "id": 13,
+      "image": "Fruit Cake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 300,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Bread"
+    },
+    {
+      "id": 14,
+      "image": "Isometric chocolate brownies",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 5,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Bread"
+    },
+    {
+      "id": 15,
+      "image": "Monster Theme Cake",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 150,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cookies"
+    },
+    {
+      "id": 16,
+      "image": "Muffin Devil Horns",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 4,
+      "price": 200,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Desert"
+    },
+    {
+      "id": 17,
+      "image": "Muffin Ghost",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 3,
+      "price": 350,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Cake"
+    },
+    {
+      "id": 18,
+      "image": "Pumpkin Spice Cupcakes",
+      "description": "A classic Cupcakes  with layers of whipped cream and fresh cherries, topped with strawberries.",
+      "rating": 2,
+      "price": 220,
+      "review": "Cake was very tasty and service is also very good.",
+      "recommended": true,
+      "categories": "Desert"
+    }
+  ]
+}

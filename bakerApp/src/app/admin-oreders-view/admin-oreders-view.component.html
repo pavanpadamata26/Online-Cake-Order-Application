@@ -1,0 +1,32 @@
+<div>
+  <h2>All User Orders</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Order Date</th>
+        <th>Item Name</th>
+        <th>Quantity</th>
+        <th>Total Price</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of allUserOrders">
+        <td>{{ order.orderDate | date: 'short' }}</td>
+        <td>{{ order.itemName }}</td>
+        <td>{{ order.quantity }}</td>
+        <td>{{ order.totalPrice | currency: 'USD': 'symbol' }}</td>
+        <td>
+          {{ order.status }}
+          <button
+          *ngIf="isAdmin"
+          [disabled]="order.status === 'Confirmed'"
+          (click)="changeOrderStatus(order)">
+          Accept Order
+        </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
